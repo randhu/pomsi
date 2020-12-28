@@ -1,0 +1,27 @@
+ALTER TABLE club CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE agenda CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE album CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE background CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE banner CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE berita CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE club CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE fanciers CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE kategori CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE komentar CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE tag CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE tagvid CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE users CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE users_modul CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE templates CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE wilayah_desa CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE wilayah_kabupaten CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE wilayah_kecamatan CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+ALTER TABLE wilayah_provinsi CONVERT TO CHARACTER SET latin1 COLLATE 'latin1_swedish_ci';
+
+
+select * from `distribusi_ring` where tahunring ='2012' and (000133 between nomerawal and nomerakhir);
+
+
+https://www.hostinger.co.id/tutorial/server-smtp-google-gratis-untuk-mengirim-email/
+
+

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Auctions | PIPA</title>
+     <link rel="stylesheet" media="all" href="files/css/auctions1.css" />
+<link rel="stylesheet" media="all" href="files/css/auctions2.css" />
+    
+<!--[if lte IE 8]>
+<script src="//auctions-static2.pipa.be/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+
+    <!-- realfavicongenerator.net code -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#337ab7">
+    <meta name="apple-mobile-web-app-title" content="Pigeon Paradise">
+    <meta name="application-name" content="Pigeon Paradise">
+    <meta name="msapplication-TileColor" content="#337ab7">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#0e9cde">
+
+  </head>
+  <body class="user-anonymous path-frontpage has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+        <div id="vue-wrap">
+    <header id="header">
+                    <div id="navbar-top">
+          <div class="container navbar-container">
+                            <div class="region region-top">
+    <nav role="navigation" aria-labelledby="block-auctions-bootstrap-account-menu-menu" id="block-auctions-bootstrap-account-menu">
+            <h2 class="sr-only" id="block-auctions-bootstrap-account-menu-menu">Gebruikersmenu</h2>
+
+      
+              <ul class="menu nav navbar-nav navbar-left">
+                    
+        <li>
+                  <a href="/en/user/login?destination=/en/frontpage" data-drupal-link-query="{&quot;destination&quot;:&quot;\/en\/frontpage&quot;}" data-drupal-link-system-path="user/login">Log in</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/user/register" data-drupal-link-system-path="user/register">Register</a>
+
+                  </li>
+        </ul>
+  
+
+
+  </nav>
+<section id="block-languageswitcherblock" class="block block-auctions-base block-language-switcher-block clearfix">
+  
+    
+
+      <div class='language-holder'>
+  <div class='current-language'>
+    <div class='en'>English</div>
+  </div>
+  <div class='language-list' style='display: none;'>
+    <ul class='language-switcher-locale-url'>
+              <li class='en'>
+          <a class='language-link en' href='/en' lang='en'>English</a>
+        </li>
+              <li class='zh-hans'>
+          <a class='language-link zh-hans' href='/zh-hans' lang='zh-hans'>中文</a>
+        </li>
+              <li class='ja'>
+          <a class='language-link ja' href='/ja' lang='ja'>日本語</a>
+        </li>
+              <li class='nl'>
+          <a class='language-link nl' href='/nl' lang='nl'>Nederlands</a>
+        </li>
+              <li class='fr'>
+          <a class='language-link fr' href='/fr' lang='fr'>Français</a>
+        </li>
+              <li class='de'>
+          <a class='language-link de' href='/de' lang='de'>Deutsch</a>
+        </li>
+              <li class='es'>
+          <a class='language-link es' href='/es' lang='es'>Español</a>
+        </li>
+              <li class='pl'>
+          <a class='language-link pl' href='/pl' lang='pl'>Polski</a>
+        </li>
+          </ul>
+  </div>
+</div><!-- /language_holder -->
+
+  </section>
+
+<section id="block-clockblock" class="block block-auctions-realtime block-clock-block clearfix">
+  
+    
+
+      <div id="clock-wrapper" @mouseover="clockDescription = true" @mouseleave="clockDescription = false">
+  <clock :servertime="servertime" :gmt="false" data-token="g.ct" class="artoken"></clock>
+
+  <div class="clock-description" v-show="clockDescription" style="display:none">
+      <p>Time zone: <span class="timezone"><img src="/themes/auctions_bootstrap/images/spinner.gif"/></span></p>
+    <a href="/en/user/login">Login to change your time zone</a>
+  </div>
+</div>
+
+
+  </section>
+
+
+  </div>
+
+                      </div>
+        </div>
+      
+              <div id="navbar">
+                                        <div class="container">
+                    <div class="navbar-header col-sm-12">
+              <div class="region region-navigation">
+          <a class="logo navbar-btn pull-left" href="https://www.pipa.be/en" title="Home" rel="home">
+      <img src="//auctions-static2.pipa.be/themes/auctions_bootstrap/logo-20yrs.png" alt="Home" />
+    </a>
+  <section id="block-horizontalmenu" class="block block-responsive-menu block-responsive-menu-horizontal-menu clearfix">
+  
+    
+
+      <nav class="responsive-menu-block-wrapper">
+  
+              <ul id="horizontal-menu" class="horizontal-menu">
+                    <li class="menu-item">
+        <a href="https://www.pipa.be/en">Home</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/en" class="is-active" data-drupal-link-system-path="&lt;front&gt;">Auctions</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.pipa.be/en/articles">Articles</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.pipa.be/en/fanciers">Fanciers</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.pipa.be/en/races">Races</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.pipa.be/en/clubs">Clubs</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://pipa.maximumimage.eu/">Shop</a>
+              </li>
+        </ul>
+  
+
+
+</nav>
+  </section>
+
+<section id="block-responsivemenumobileicon" class="responsive-menu-toggle-wrapper responsive-menu-toggle block block-responsive-menu block-responsive-menu-toggle clearfix">
+  
+    
+
+      <a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+  <span class="icon"></span><span class="label">Menu</span>
+</a>
+  </section>
+
+
+  </div>
+
+                                  </div>
+
+                                          </div>
+                          </div>
+    </header>
+        
+      
+      <div role="title" class="title-container container">
+        <div class="row">
+                    
+                    
+                                                </div>
+      </div>
+
+      <div role="main" class="main-container container js-quickedit-main-content">
+                          <div class="row help-region">
+                            <div class="alert alert-info messages info region region-help">
+    <span class="icon glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+                      </div>
+        
+        <div class="row">
+          
+                    
+                    <section class="content col-sm-12">
+
+                                      <a id="tabs" class=""></a>
+              
+            
+                                      <a id="main-content"></a>
+                <div class="region region-content-first">
+    <div id="block-auctions-bootstrap-content">
+  
+    
+      <h1>Pigeon Paradise: Racing pigeons in online auctions</h1>
+
+  <div class='online-auctions row'>
+    <h2>Online auctions</h2>
+    <div class="auctions">
+      
+    <div id="auction_4137" data-id="4137"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4137" data-token="a.fav:4137" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-wijnands-zoon-nl/list" href="/en/auction/2020-12-wijnands-zoon-nl"><img src="files/samplefoto/auctions/wijnands.jpg"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4137" data-token="a.et:4137" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-wijnands-zoon-nl" data-list-link="/en/auction/2020-12-wijnands-zoon-nl/list" class="auction-can-link" hreflang="en">Wijnands &amp; zoon (NL)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">All old birds until 2019 plus specially bred youngsters from 2020</div>
+      </h4>
+                <div class="number-of-pigeons">142 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-wijnands-zoon-nl/list" href="/en/auction/2020-12-wijnands-zoon-nl">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="auction_4127" data-id="4127"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4127" data-token="a.fav:4127" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-gs-verkerk-nl/list" href="/en/auction/2020-12-gs-verkerk-nl"><img src="files/samplefoto/auctions/Bas%20Verkerk_7_1_0.jpg"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4127" data-token="a.et:4127" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-gs-verkerk-nl" data-list-link="/en/auction/2020-12-gs-verkerk-nl/list" class="auction-can-link" hreflang="en">G&amp;S Verkerk (NL)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">Youngsters of the best breeding &amp; racing birds</div>
+      </h4>
+                <div class="number-of-pigeons">55 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-gs-verkerk-nl/list" href="/en/auction/2020-12-gs-verkerk-nl">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="auction_4133" data-id="4133"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4133" data-token="a.fav:4133" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-leo-gerry-dockx-be/list" href="/en/auction/2020-12-leo-gerry-dockx-be"><img src="files/samplefoto/auctions/Sfeer-PIPA-PIG_5237-158_0.jpg"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4133" data-token="a.et:4133" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-leo-gerry-dockx-be" data-list-link="/en/auction/2020-12-leo-gerry-dockx-be/list" class="auction-can-link" hreflang="en">Leo &amp; Gerry Dockx (BE)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">Gaston Van De Wouwer collection plus youngsters of their best breeders</div>
+      </h4>
+                <div class="number-of-pigeons">72 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-leo-gerry-dockx-be/list" href="/en/auction/2020-12-leo-gerry-dockx-be">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="auction_4021" data-id="4021"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4021" data-token="a.fav:4021" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-klaas-rik-van-dorp-nl/list" href="/en/auction/2020-12-klaas-rik-van-dorp-nl"><img src="files/samplefoto/auctions/Dorp%20Rik%20%26%20Klaas_foto%20rik%20klaas%20en%20zoon_0.JPG"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4021" data-token="a.et:4021" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-klaas-rik-van-dorp-nl" data-list-link="/en/auction/2020-12-klaas-rik-van-dorp-nl/list" class="auction-can-link" hreflang="en">Klaas &amp; Rik Van Dorp (NL)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">Racing birds &amp; youngsters of their best breeders</div>
+      </h4>
+                <div class="number-of-pigeons">12 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-klaas-rik-van-dorp-nl/list" href="/en/auction/2020-12-klaas-rik-van-dorp-nl">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="auction_4139" data-id="4139"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4139" data-token="a.fav:4139" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-stijn-jeroen-rans-be/list" href="/en/auction/2020-12-stijn-jeroen-rans-be"><img src="files/samplefoto/auctions/Main%20Rans.jpg"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4139" data-token="a.et:4139" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-stijn-jeroen-rans-be" data-list-link="/en/auction/2020-12-stijn-jeroen-rans-be/list" class="auction-can-link" hreflang="en">Stijn &amp; Jeroen Rans (BE)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">Jef special</div>
+      </h4>
+                <div class="number-of-pigeons">13 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-stijn-jeroen-rans-be/list" href="/en/auction/2020-12-stijn-jeroen-rans-be">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="auction_4213" data-id="4213"  class="auction-teaser-active auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+        <div class="inner_container">
+            <div class="favourite-icon favourite-type-auction">
+                <auction-favourite :favourites="favourites" :auction_id="4213" data-token="a.fav:4213" class="artoken "></auction-favourite>
+
+            </div>
+            <div class="image">
+                <a class="auction-can-link" data-list-link="/en/auction/2020-12-mike-ganus-us/list" href="/en/auction/2020-12-mike-ganus-us"><img src="files/samplefoto/auctions/Foto%20voor%20bij%20veiling.jpg"></a>
+                <div class="end-time">
+                    <auction-end-time :auctions="auctions" :servertime="servertime" :auction_id="4213" data-token="a.et:4213" class="artoken"></auction-end-time>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-mike-ganus-us" data-list-link="/en/auction/2020-12-mike-ganus-us/list" class="auction-can-link" hreflang="en">Mike Ganus (US)</a></div>
+      </h3>
+                <h4>
+            <div class="field field--name-field-commer field--type-string field--label-hidden field--item">Youngsters of his best breeders</div>
+      </h4>
+                <div class="number-of-pigeons">25 lots in this auction</div>
+                <div class="link-btn link-btn-default icon-arrow-right">
+                    <a class="auction-can-link" data-list-link="/en/auction/2020-12-mike-ganus-us/list" href="/en/auction/2020-12-mike-ganus-us">Go to auction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+  </div>
+  <div class="clear"></div>
+
+  <div class='online-auctions row'>
+    <div class="link-btn link-btn-default link-btn-xl search-btn">
+      <a href="/en/pigeon-search" class="button">Filter pigeons in all auctions</a>
+    </div>
+  </div>
+
+
+
+<div class="cta row">
+  <div class='cta-why-choose'>
+    <h2>The most exclusive auction house for racing pigeons worldwide.</h2>
+    <div class="container-body">
+      <ul>
+        <li>The 10 most expensive auctions ever worldwide, all organized by PIPA.</li>
+        <li>We guarantee the best auction result through a tailor-made strategy.</li>
+        <li>Request a non-binding estimation, one of our experts will respond.</li>
+      </ul>
+      <div class="clear"></div>
+      <div class="btn-group">
+        <a href="/en/contact?category=sales" class="btn btn-cta btn-xl">Contact sales</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+
+
+  <div class='upcoming-auctions row'>
+    <h2>Upcoming auctions</h2>
+    <div class="auctions">
+      
+<div id="auction_4238" data-id="4238"  class="auction-teaser-upcoming auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+  <div class="inner_container">
+    <div class="favourite-icon favourite-type-auction">
+      <auction-favourite :favourites="favourites" :auction_id="4238" data-token="a.fav:4238" class="artoken follow"></auction-favourite>
+
+    </div>
+    <div class="image">
+      <a href="/en/auction/2020-12-gino-clicque-be-day-1"><img src="files/samplefoto/auctions/Clicque%20sfeer-familie.jpg"></a>
+    </div>
+    <div class="content">
+      <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-gino-clicque-be-day-1" data-list-link="/en/auction/2020-12-gino-clicque-be-day-1/list" class="auction-can-link" hreflang="en">Gino Clicque (BE): day 1</a></div>
+      </h3>
+      <h4></h4>
+      <div class="date">
+        <div class="start">
+          <auction-start-time :start_time="1607961600"></auction-start-time>
+
+        </div>
+      </div>
+      <div class="link-btn link-btn-default icon-arrow-right">
+        <a href="/en/auction/2020-12-gino-clicque-be-day-1">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="auction_4239" data-id="4239"  class="auction-teaser-upcoming auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+  <div class="inner_container">
+    <div class="favourite-icon favourite-type-auction">
+      <auction-favourite :favourites="favourites" :auction_id="4239" data-token="a.fav:4239" class="artoken follow"></auction-favourite>
+
+    </div>
+    <div class="image">
+      <a href="/en/auction/2020-12-gino-clicque-be-day-2"><img src="files/samplefoto/auctions/GINO_10_2.jpg"></a>
+    </div>
+    <div class="content">
+      <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-gino-clicque-be-day-2" data-list-link="/en/auction/2020-12-gino-clicque-be-day-2/list" class="auction-can-link" hreflang="en">Gino Clicque (BE): day 2</a></div>
+      </h3>
+      <h4></h4>
+      <div class="date">
+        <div class="start">
+          <auction-start-time :start_time="1608048000"></auction-start-time>
+
+        </div>
+      </div>
+      <div class="link-btn link-btn-default icon-arrow-right">
+        <a href="/en/auction/2020-12-gino-clicque-be-day-2">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="auction_4240" data-id="4240"  class="auction-teaser-upcoming auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+  <div class="inner_container">
+    <div class="favourite-icon favourite-type-auction">
+      <auction-favourite :favourites="favourites" :auction_id="4240" data-token="a.fav:4240" class="artoken follow"></auction-favourite>
+
+    </div>
+    <div class="image">
+      <a href="/en/auction/2020-12-gino-clicque-be-day-3"><img src="files/samplefoto/auctions/Clicque%20sfeer-16.jpg"></a>
+    </div>
+    <div class="content">
+      <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2020-12-gino-clicque-be-day-3" data-list-link="/en/auction/2020-12-gino-clicque-be-day-3/list" class="auction-can-link" hreflang="en">Gino Clicque (BE): day 3</a></div>
+      </h3>
+      <h4></h4>
+      <div class="date">
+        <div class="start">
+          <auction-start-time :start_time="1608134400"></auction-start-time>
+
+        </div>
+      </div>
+      <div class="link-btn link-btn-default icon-arrow-right">
+        <a href="/en/auction/2020-12-gino-clicque-be-day-3">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="auction_4151" data-id="4151"  class="auction-teaser-upcoming auction col-md-3 col-sm-4 col-xs-6 col-tn-12">
+  <div class="inner_container">
+    <div class="favourite-icon favourite-type-auction">
+      <auction-favourite :favourites="favourites" :auction_id="4151" data-token="a.fav:4151" class="artoken follow"></auction-favourite>
+
+    </div>
+    <div class="image">
+      <a href="/en/auction/2021-01-jos-martens-nl"><img src="files/samplefoto/auctions/Martens%20Jos_0.jpg"></a>
+    </div>
+    <div class="content">
+      <h3>
+            <div class="field field--name-title field--type-string field--label-hidden field--item"><a href="/en/auction/2021-01-jos-martens-nl" data-list-link="/en/auction/4151/list" class="auction-can-link" hreflang="en">Jos Martens (NL)</a></div>
+      </h3>
+      <h4></h4>
+      <div class="date">
+        <div class="start">
+          <auction-start-time :start_time="1609171200"></auction-start-time>
+
+        </div>
+      </div>
+      <div class="link-btn link-btn-default icon-arrow-right">
+        <a href="/en/auction/2021-01-jos-martens-nl">More info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="link-btn link-btn-default link-btn-xl upcoming-btn">
+      <a href="/en/upcoming-auctions" class="button">Show all upcoming auctions</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+
+  </div>
+  </div>
+
+            
+                                      
+            
+                                      
+            
+                                      
+                      </section>
+
+                            </div>
+      </div>
+    
+                  <footer class="footer footer_first" role="contentinfo">
+          <div class="container">
+              <div class="region region-footer-first">
+    <section id="block-auctionsbasefooterblock" class="block block-auctions-base block-auctions-base-footer-block clearfix">
+  
+    
+
+      <ul class="menu nav"><li class="expanded dropdown"><a href="/en">Auctions</a><ul class="expanded dropdown"><li><a href="/en">Online auctions</a></li><li><a href="/en/upcoming-auctions">Upcoming auctions</a></li></ul></li><li class="expanded dropdown"><a href="/en/frequently-asked-questions">FAQ</a><ul class="expanded dropdown"><li><a href="/en/frequently-asked-questions#v-pills-term-16673">Welcome to PIPA</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-1">Registration &amp; approval</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-3">Bidding</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-16671">Alerts &amp; communication</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-11">My Auctions</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-5">Payment</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-7">Transport</a></li><li><a href="/en/frequently-asked-questions#v-pills-term-9">Aftersales</a></li></ul></li><li class="expanded dropdown"><a href="/en/user">My account</a><ul class="expanded dropdown"><li><a href="/en/user">Login</a></li><li><a href="/en/user/register">Register</a></li><li><a href="/en/user/password">Reset password</a></li></ul></li><li class="expanded dropdown"><a href="/en/user">About PIPA</a><ul class="expanded dropdown"><li><a href="https://www.pipa.be/en/pipa-milestones">PIPA milestones</a></li><li><a href="https://www.pipa.be/en/selection-procedure-and-quality-control">Selection procedure &amp; quality control</a></li><li><a href="/en/who-is-pipa">Who is PIPA</a></li></ul></li></ul>
+  </section>
+
+<section id="block-contactus" class="block block-auctions-base block-auctions-base-contact-block clearfix">
+  
+      <h3 class="block-title">
+      <a href="/en/contact?category=sales">
+        Contact us
+      </a>
+    </h3>
+    
+
+      
+          <p>PIPA Trading BV</p>
+          <p>Eentveldstraat 18</p>
+          <p>B-9910 Knesselare</p>
+          <p>BELGIUM</p>
+          <p><span class="tel">Tel: <a href="tel:+3293743887">+32 (0)9 374 38 87</a></span></p>
+        
+  </section>
+
+
+  </div>
+
+          </div>
+        </footer>
+          
+                  <footer class="footer footer_second" role="contentinfo">
+          <div class="container">
+              <div class="region region-footer-second">
+    <section id="block-copyrightblock" class="block block-auctions-base block-auctions-base-copyright-block clearfix">
+  
+    
+
+      © 2020 PIPA Trading BV &middot; <a href="/en/general-terms-conditions-sale-update-2019">General terms</a> &middot; <a href="https://www.pipa.be/disclaimer">Disclaimer</a>
+  </section>
+
+
+  </div>
+
+          </div>
+        </footer>
+              </div>
+  </div>
+</div>
+
+  </div>
+
+    <div class="off-canvas-wrapper"><div id="off-canvas">
+              <ul class="menu nav navbar-nav navbar-left">
+                    
+        <li>
+                  <a href="https://www.pipa.be/en">Home</a>
+
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/en" class="dropdown-toggle">Auctions <span class="caret"></span></a>
+                                  <ul class="menu navbar-left dropdown-menu">
+                    
+        <li>
+                  <a href="/en/auction/2020-12-gs-verkerk-nl" data-drupal-link-system-path="auction/4127">G&amp;S Verkerk (NL)</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/auction/2020-12-klaas-rik-van-dorp-nl" data-drupal-link-system-path="auction/4021">Klaas &amp; Rik Van Dorp (NL)</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/auction/2020-12-leo-gerry-dockx-be" data-drupal-link-system-path="auction/4133">Leo &amp; Gerry Dockx (BE)</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/auction/2020-12-mike-ganus-us" data-drupal-link-system-path="auction/4213">Mike Ganus (US)</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/auction/2020-12-stijn-jeroen-rans-be" data-drupal-link-system-path="auction/4139">Stijn &amp; Jeroen Rans (BE)</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/auction/2020-12-wijnands-zoon-nl" data-drupal-link-system-path="auction/4137">Wijnands &amp; zoon (NL)</a>
+
+                  </li>
+        </ul>
+  
+            </li>
+                
+        <li>
+                  <a href="https://www.pipa.be/en/articles">Articles</a>
+
+                  </li>
+                
+        <li>
+                  <a href="https://www.pipa.be/en/fanciers">Fanciers</a>
+
+                  </li>
+                
+        <li>
+                  <a href="https://www.pipa.be/en/races">Races</a>
+
+                  </li>
+                
+        <li>
+                  <a href="https://www.pipa.be/en/clubs">Clubs</a>
+
+                  </li>
+                
+        <li>
+                  <a href="https://pipa.maximumimage.eu/">Shop</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/user/login?destination=/en/frontpage" data-drupal-link-query="{&quot;destination&quot;:&quot;\/en\/frontpage&quot;}" data-drupal-link-system-path="user/login">Log in</a>
+
+                  </li>
+                
+        <li>
+                  <a href="/en/user/register" data-drupal-link-system-path="user/register">Register</a>
+
+                  </li>
+        </ul>
+  
+
+</div></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"frontpage","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"responsive_menu":{"position":"left","theme":"theme-light","pagedim":"pagedim","breakpoint":"(min-width: 960px)","extension_keyboard":true,"superfish":{"active":false,"delay":300,"speed":100,"speedOut":100},"mediaQuery":"(min-width: 960px)"},"auction_min_avg":700,"auction_id":null,"cdn_url":"\/\/auctions-static2.pipa.be","google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"pipa_realtime":{"node_js_ip":"https:\/\/push.pipa.be","node_js_channel_prefix":"844","node_js_token":false},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","popover_trigger_autoclose":1},"preferred_timezone":false,"user":{"uid":0,"permissionsHash":"9676c9aff5232c647a6a32257d27baf8386bb3a3fda10671383ec8f446f07242"}}</script>
+<script src="files/js/auctions.js"></script>
+
+  <script>auctions={"4021":{"title":"\u8377\u5170~\u514b\u62c9\u65af\u548c\u745e\u514b.\u8303\u591a\u666e","auction_id":"4021","auction_starting_time":1606752000,"auction_end_time":1607940000,"initial_end_time":1607940000,"auction_status":"4","status":"1","titles":{"de":"Klaas \u0026 Rik Van Dorp (NL)","en":"Klaas \u0026 Rik Van Dorp (NL)","fr":"Klaas \u0026 Rik Van Dorp (P-B)","nl":"Klaas \u0026 Rik Van Dorp (NL)","zh-hans":"\u8377\u5170~\u514b\u62c9\u65af\u548c\u745e\u514b.\u8303\u591a\u666e"}},"4127":{"title":"\u8377\u5170~\u6c83\u514b\uff08\u4f5b\u79d1\u514b\uff09\u7236\u5b50","auction_id":"4127","auction_starting_time":1606752000,"auction_end_time":1607864400,"initial_end_time":1607864400,"auction_status":"4","status":"1","titles":{"de":"G\u0026S Verkerk (NL)","en":"G\u0026S Verkerk (NL)","fr":"G\u0026S Verkerk (P-B)","nl":"G\u0026S Verkerk (NL)","zh-hans":"\u8377\u5170~\u6c83\u514b\uff08\u4f5b\u79d1\u514b\uff09\u7236\u5b50"}},"4133":{"title":"\u6bd4\u5229\u65f6~\u83b1\u5965\u548c\u6770\u745e.\u5f53\u514b\u65af","auction_id":"4133","auction_starting_time":1606752000,"auction_end_time":1607871600,"initial_end_time":1607871600,"auction_status":"4","status":"1","titles":{"de":"Leo \u0026 Gerry Dockx (BE)","en":"Leo \u0026 Gerry Dockx (BE)","fr":"Leo \u0026 Gerry Dockx (BE)","nl":"Leo \u0026 Gerry Dockx (BE)","zh-hans":"\u6bd4\u5229\u65f6~\u83b1\u5965\u548c\u6770\u745e.\u5f53\u514b\u65af"}},"4137":{"title":"\u8377\u5170~\u5a01\u5357\u65af\u7236\u5b50","auction_id":"4137","auction_starting_time":1606752000,"auction_end_time":1607853600,"initial_end_time":1607853600,"auction_status":"4","status":"1","titles":{"de":"Wijnands \u0026 Sohn (NL)","en":"Wijnands \u0026 zoon (NL)","fr":"Wijnands \u0026 fils (P-B)","nl":"Wijnands \u0026 zoon (NL)","zh-hans":"\u8377\u5170~\u5a01\u5357\u65af\u7236\u5b50"}},"4139":{"title":"\u6bd4\u5229\u65f6~\u65af\u6c40\u548c\u8036\u7f57\u6069.\u5170\u65af","auction_id":"4139","auction_starting_time":1606752000,"auction_end_time":1607941800,"initial_end_time":1607941800,"auction_status":"4","status":"1","titles":{"de":"Stijn \u0026 Jeroen Rans (BE)","en":"Stijn \u0026 Jeroen Rans (BE)","fr":"Stijn \u0026 Jeroen Rans (BE)","nl":"Stijn \u0026 Jeroen Rans (BE)","zh-hans":"\u6bd4\u5229\u65f6~\u65af\u6c40\u548c\u8036\u7f57\u6069.\u5170\u65af"}},"4213":{"title":"\u7f8e\u56fd~\u9ea6\u514b.\u7518\u7eb3\u65af","auction_id":"4213","auction_starting_time":1606752000,"auction_end_time":1607943600,"initial_end_time":1607943600,"auction_status":"4","status":"1","titles":{"de":"Mike Ganus (US)","en":"Mike Ganus (US)","fr":"Mike Ganus (US)","nl":"Mike Ganus (US)","zh-hans":"\u7f8e\u56fd~\u9ea6\u514b.\u7518\u7eb3\u65af"}}};pigeon_latest_bids=[];bids=[];pigeons=[];highest_bids=[];bos=[];favourites=null;servertime=1607585914;user_hash=false;all_favourites=[];all_followed=[];pigeon_lists=null;auction_parts=null;messages_count=0;is_loft_manager=false;</script></body>
+</html>
